@@ -1,0 +1,40 @@
+[vite] connecting...
+[vite] connected.
+Submitting form: login 
+Object {username: "testuser", password: "blackfish1"}
+password: "blackfish1"
+username: "testuser"
+[[Prototype]]: Object
+Auth result: 
+Object {ok: true}
+ok: true
+[[Prototype]]: Object
+constructor: ƒ Object()
+hasOwnProperty: ƒ hasOwnProperty()
+isPrototypeOf: ƒ isPrototypeOf()
+propertyIsEnumerable: ƒ propertyIsEnumerable()
+toLocaleString: ƒ toLocaleString()
+toString: ƒ toString()
+valueOf: ƒ valueOf()
+__defineGetter__: ƒ __defineGetter__()
+__defineSetter__: ƒ __defineSetter__()
+__lookupGetter__: ƒ __lookupGetter__()
+__lookupSetter__: ƒ __lookupSetter__()
+__proto__: Object
+get __proto__: ƒ get __proto__()
+set __proto__: ƒ set __proto__()
+Warning: Cannot update a component (&#x60;AppRoutes&#x60;) while rendering a different component (&#x60;Route&#x60;). To locate the bad setState() call inside &#x60;Route&#x60;, follow the stack trace as described in https://reactjs.org/link/setstate-in-render
+    at Route (https://ac54a569-5d29-43e3-bde4-8f3f611ba7ec-00-3prh79and22rq.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=7d706cca:323:16)
+    at Switch (https://ac54a569-5d29-43e3-bde4-8f3f611ba7ec-00-3prh79and22rq.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=7d706cca:379:17)
+    at AppRoutes (https://ac54a569-5d29-43e3-bde4-8f3f611ba7ec-00-3prh79and22rq.picard.replit.dev/src/App.tsx?v=hotOK6D3C4PL49tCdUE1e:59:31)
+    at QueryClientProvider (https://ac54a569-5d29-43e3-bde4-8f3f611ba7ec-00-3prh79and22rq.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=7d706cca:2805:3)
+    at App
+at Route (https://ac54a569-5d29-43e3-bde4-8f3f611ba7ec-00-3prh79and22rq.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=7d706cca:323:16)
+at Switch (https://ac54a569-5d29-43e3-bde4-8f3f611ba7ec-00-3prh79and22rq.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=7d706cca:379:17)
+at AppRoutes (https://ac54a569-5d29-43e3-bde4-8f3f611ba7ec-00-3prh79and22rq.picard.replit.dev/src/App.tsx?v=hotOK6D3C4PL49tCdUE1e:59:31)
+at QueryClientProvider (https://ac54a569-5d29-43e3-bde4-8f3f611ba7ec-00-3prh79and22rq.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=7d706cca:2805:3)
+at App
+at t.value (https://ac54a569-5d29-43e3-bde4-8f3f611ba7ec-00-3prh79and22rq.picard.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://ac54a569-5d29-43e3-bde4-8f3f611ba7ec-00-3prh79and22rq.picard.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://ac54a569-5d29-43e3-bde4-8f3f611ba7ec-00-3prh79and22rq.picard.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://ac54a569-5d29-43e3-bde4-8f3f611ba7ec-00-3prh79and22rq.picard.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400

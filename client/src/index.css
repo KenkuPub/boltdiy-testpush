@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+
+  .jersey-15-regular {
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.02em;
+  }
+}
